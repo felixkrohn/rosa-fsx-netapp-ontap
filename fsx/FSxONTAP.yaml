@@ -186,6 +186,10 @@ Resources:
           ToPort: 4046
           CidrIp: !Ref FSxAllowedCIDR
         - IpProtocol: tcp
+          FromPort: 4420
+          ToPort: 4420
+          CidrIp: !Ref FSxAllowedCIDR
+        - IpProtocol: tcp
           FromPort: 11104
           ToPort: 11104
           CidrIp: !Ref FSxAllowedCIDR
