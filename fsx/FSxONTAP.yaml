@@ -255,7 +255,7 @@ Resources:
       OntapConfiguration:
         AutomaticBackupRetentionDays: 3
         DailyAutomaticBackupStartTime: "01:00"
-        DeploymentType: MULTI_AZ_1
+        DeploymentType: MULTI_AZ_2
         DiskIopsConfiguration:
           Mode: AUTOMATIC
         PreferredSubnetId: !Ref Subnet1ID
